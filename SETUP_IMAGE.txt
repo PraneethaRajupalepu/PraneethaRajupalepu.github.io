@@ -1,0 +1,29 @@
+IMAGE SETUP INSTRUCTIONS
+========================
+
+To display your profile image on the hero section, follow these steps:
+
+1. Save your profile image with the filename: praneetha.jpg
+   (or any JPG/PNG format)
+
+2. Place it in the images/ folder:
+   d:\DevOps-tools\Portfolio_website_Gitio\images\praneetha.jpg
+
+3. The image will be automatically displayed in the hero section with:
+   - Professional styling and border
+   - Hover effects (scales up on hover)
+   - Responsive design (adapts to mobile)
+   - Orange glow effect matching your theme
+
+RECOMMENDED IMAGE SPECIFICATIONS:
+- Format: JPG or PNG
+- Aspect Ratio: Square (1:1) or portrait (3:4)
+- Min Size: 400x400px
+- Max Size: 1000x1000px
+- Background: Should have clear subject (like a professional photo)
+
+CURRENT IMAGE PATH IN HTML:
+src="images/praneetha.jpg"
+
+If you use a different filename, update the src attribute in index.html line 71:
+<img src="images/YOUR_IMAGE_NAME.jpg" alt="Praneetha - AI & Data Engineer">

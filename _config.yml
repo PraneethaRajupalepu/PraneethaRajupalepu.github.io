@@ -1,0 +1,48 @@
+# GitHub Pages Jekyll Configuration
+# Theme and settings for portfolio website deployment
+
+# Site title and description
+title: Praneetha's Portfolio
+description: AI & Data Engineer | Machine Learning Specialist | Cloud Data Pipeline Expert
+author: Praneetha Rajupalepu
+
+# GitHub Pages settings
+remote_theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from Jekyll build
+exclude:
+  - .gitignore
+  - README.md
+  - SETUP_IMAGE.txt
+  - .git
+  - .github
+
+# Site URL (update with your GitHub username)
+# url: "https://yourusername.github.io"
+# baseurl: ""
+
+# CSS and assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Enable Jekyll to process files
+keep_files:
+  - images
+  - assets
